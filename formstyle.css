@@ -1,0 +1,121 @@
+body {
+	background-image: url(images/img1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.main {
+	margin: auto;
+	border: white 1px solid;
+	width: 30%;
+	height: 450px;
+	margin-top: 12%;
+	background-color: white;
+	position: relative;
+	opacity: 0.8;
+	
+}
+.main h1 {
+	
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	left: 40%;
+
+}
+.button {
+		border-radius: 20px;
+		width: 80%;
+		height: 35px;
+		border: none;
+		color: white;
+		line-height: 35px;
+		outline: none;
+}
+.btn1 {
+	position: absolute;
+	top: 70px;
+	left: 30px;
+	background-color: #3b5998 ;
+
+}
+.btn2 {
+	position: absolute;
+	top: 110px;
+	left: 30px;
+	background-color:  #00acee;
+}
+.main h2 {
+	font-size: 15px;
+	position: absolute;
+	top: 165px;
+	left: 30%;
+}
+.main form input {
+	width: 80%;
+	height: 40px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid grey;
+	outline: none;
+}
+.main form input[type="email"] {
+	position: absolute;
+	top: 45%;
+	left: 30px;
+}
+.main form input[type="password"] {
+	position: absolute;
+	top: 58%;
+	left: 30px;
+}
+.main form input[type="checkbox"]{
+	width: 15px;
+	position: absolute;
+	top: 68%;
+	left: 12%;
+}
+.main form span {
+	position: absolute;
+	top: 71%;
+	left: 18%;
+	font-size: 13px;
+}
+.main form input[type="submit"]{
+	position: absolute;
+	bottom: 13%;
+	left: 30px;
+	color: white;
+	background-color: #E59866;
+	border: none;
+}
+.main form input[type="submit"]:hover {
+	background-color: #D35400 ;
+}
+.main .span {
+	font-size: 15px;
+	position: absolute;
+	bottom: 5%;
+	left: 16%;
+}
+.main  a {
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	bottom: 5%;
+	left: 68%;
+	font-size: 15px;
+
+}
+footer {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	margin-top : 15px;
+}
